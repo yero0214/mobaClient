@@ -17,8 +17,8 @@ Wails.Init(() => {
 		render: h => h(App),
 		router,
 		store,
-		moutted(){
-			this.$router.replace('/')
+		mounted(){
+			this.$router.replace('/Login')
 		}
 	}).$mount('#app')
 });
