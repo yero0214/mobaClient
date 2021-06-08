@@ -1,11 +1,13 @@
 <template>
   <div class="container">
-    <h1>{{message}}</h1>
+    <Menu/>
+    <h1>Home</h1>
     <a @click="getMessage">Press Me!</a>
   </div>
 </template>
 
 <script>
+
 export default {
   data() {
     return {

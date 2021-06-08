@@ -2,9 +2,7 @@ import 'core-js/stable'
 import 'regenerator-runtime/runtime'
 import Vue from 'vue'
 import App from './App.vue'
-//import the router
 import router from './router'
-//import the store
 import store from './store'
 
 Vue.config.productionTip = false
